@@ -27,6 +27,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compileOnly 'com.kovachcode:timePickerWithSeconds:1.0.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.kovachcode:timePickerWithSeconds:1.0.1'
 }
