@@ -70,7 +70,7 @@ public class DatePreference extends DialogPreference {
         setNegativeButtonText("Cancel");
     }
 
-    @SuppressLint("ObsoleteSdkInt")
+
     @Override
     protected View onCreateDialogView() {
         picker = new DatePicker(getContext());
